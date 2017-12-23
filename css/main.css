@@ -1,0 +1,539 @@
+/* Start my framework */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width:1200px;
+    margin: auto;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.main-color{
+    color: #f7600e;
+}
+
+.main-backcolor{
+    background: #f7600e;
+}
+.clearfix{
+    clear: both;
+}
+.overlay{
+    background-color: rgba(49,55,61,.8);
+    width: 100%;
+    height: 100%;   
+}
+.hidden{
+    display: none;
+}
+/* End   my framework*/
+
+/* Start header */
+.header{
+    background: url('../images/computer-with-landscape-on-screen-and-mobile-phone-on-wooden-table.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    color: #fff;
+}
+.header .overlay{
+    background-color: rgba(49,55,61,.8);
+    width: 100%;
+    height: 100%;
+}
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.header .navbar h3{
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+.header .navbar .links{
+    float: right;
+   
+}
+.header .navbar .links i{
+    margin-left: 5px;
+}
+
+.header .intro {
+    
+}
+.header .intro h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+.header .intro p{
+    margin: 10px 0 50px;
+    line-height: 1.6;
+    font-size: 20px;
+    color: #e2e2e2;
+}
+
+.header .intro .buttons button{
+    background: transparent;
+    color: #fff;
+    padding: 5px 0px;
+    width: 150px;
+    border: 1px solid #909090;
+    margin: 0 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+     transition:all .5s ease-in-out;
+}
+.header .intro .buttons button:hover{
+    background: #f7600e;
+    border: 1px solid #f7600e;
+}
+
+.header .arrow{
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.header .arrow i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+/* End   header */
+
+/*Start features*/
+.features{
+    padding: 40px 0;
+    overflow: hidden;
+}
+.features .box{
+    width: 22%;
+    float: left;
+    margin-right: 3%;
+}
+.features .box:last-child {
+    margin-right: 0;
+}
+.features .box i {
+    color: #f7600e;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .6s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .8s ease-in-out;
+}
+.features .box i:hover{
+    background: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff;
+}
+.features .box h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #666;
+}
+.features .box p{
+    line-height: 2;
+    color: #888;
+}
+/*End   features*/
+
+
+/*Start subscribe */
+.subscribe{
+    background: url('../images/black-and-white-image-of-mobile-phone-and-notebook.jpg');\
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+   
+}
+.subscribe form{
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    
+}
+.subscribe form input[type="email"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 470px;
+    border-radius: 10px;
+    border: none;
+    height: 46px;
+    padding-left: 21px;
+}
+.subscribe form button {
+    padding: 10px;
+    width: 180px;
+    background: #d7600e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+/*End   subscribe */
+
+/*Start Our Work*/
+.our-work h2 {
+    font-size    :  35px;
+    margin-bottom:     0;
+    font-weight: 400;
+}
+.our-work h2 ~ p{
+    line-height: 2;
+    margin: 10px 0 40px;
+} 
+.our-work  .show-more{
+    background: transparent;
+    border: 1px solid #ddd;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #666;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    
+    margin-top: 20px;
+}
+
+.our-work  .show-more:hover{
+    background: #d7600e;
+    border: 1px solid #d7600e;
+    border: none;
+    color: #fff;
+}
+.our-work .items-box{
+    overflow: hidden;
+}
+
+.our-work .items-box .item{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.our-work .items-box .item .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #d7600e;
+    opacity: .7;
+    color: #fff;
+    -wibkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none;
+}
+.our-work .items-box .item .over h4{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.our-work .items-box .item .over p{
+    margin-top: 10px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+.our-work .items-box .item .over button{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 11px;
+    font-weight: bold;
+    -wibkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition: all.5s ease-in-out;
+        
+}
+.our-work .items-box .item .over button:hover{
+    color: #d7600e;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.our-work .items-box .item:hover .over{
+    display: block;
+}
+.our-work .items-box .item img{
+    width: 100%;
+}
+/* End  Our Work*/
+
+/* Testimonials */
+.testin{
+    margin-top: 20px;
+  
+    color: #fff;
+    background: url('../images/Beautiful%20Architecture%20HD%20Wallpapers%20(18).jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    position: relative;
+}
+
+.testin .client{
+    padding: 50px 0;
+    font-size: 20px;
+}
+.testin .client img{
+    width: 150px;
+    border-radius: 50%;
+}
+.testin .client p{
+    line-height: 2;
+    font-style: italic;
+}
+.testin .fa-chevron-right,
+.testin .fa-chevron-left{
+    position: absolute;
+    top: 40%; 
+    cursor: pointer;
+}
+.testin .fa-chevron-right:hover,
+.testin .fa-chevron-left:hover{
+    color: #d7600e;
+}
+
+.testin .fa-chevron-right{
+
+    right: 100px;
+}
+.testin .fa-chevron-left{
+    left: 100px;
+}
+/* Testimonials */
+
+/*Start Our Team*/
+.our-team{
+    padding: 50px 0;
+}
+
+.our-team h2{
+    font-size: 35px 0;
+    margin-top: 0;
+}
+.our-team p{
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #555;
+    font-size: 20px;
+}
+.our-team .the-team{
+    overflow: hidden;
+}
+.our-team .the-team .person {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color: #ddd;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.our-team .the-team .person .image{
+    width: 50%;
+    margin: auto;
+}
+.our-team .the-team .person .image img{
+    width: 144px;
+    height: 180px;
+    border-radius: 5px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter:grayscale(1);
+    -moz-filter:grayscale(1);
+    -o-filter:grayscale(1);
+}
+.our-team .the-team .person:hover img{
+    filter: none;
+    filter: grayscale(0);
+    -webkit-filter:grayscale(0);
+    -moz-filter:grayscale(0);
+    -o-filter:grayscale(0);
+    
+}
+.our-team .the-team .person:hover{
+    color: #555;
+}
+.our-team .the-team .person:hover .fa-facebook{
+    background: #3b5998;
+}
+.our-team .the-team .person:hover .fa-twitter{
+    background: #55acee;
+}
+.our-team .the-team .person:hover .fa-google-plus{
+    background: #dc4e41;
+}
+
+.our-team .the-team .person p{
+    font-size: 11px;
+}
+.our-team .the-team .person .social-icons i{
+    background: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff
+}
+
+/* End Our Team  */
+
+/*start contact*/
+.contact{
+    background: url('../images/Beautiful%20Architecture%20HD%20Wallpapers%20(10).jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    color: #fff; 
+}
+.contact .overlay{
+    padding: 50px 0;
+}
+.contact h2 {
+    font-size: 35px;
+    margin: 0;
+}
+.contact p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.contact form{
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    margin-top: 120px;
+    overflow: hidden;
+}
+.contact form input[type="text"],
+.contact form input[type="email"]{
+    width: 49%;
+    border-radius: 5px;
+    border:0;
+    height: 30px;
+    float: left;
+    height: 40px;
+    padding-left: 15px;
+}
+.contact form input[type="email"]{
+    margin: 0;
+    margin-right: 1%;
+}
+.contact form input[type="text"]{
+    float: right;
+    margin: 0;
+    margin-left:1%;
+}
+.contact form textarea{
+    margin-top: 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    height: 200px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.contact form .info{
+    overflow: hidden;
+}
+.contact form .info button {
+    float: left;
+    color: #fff;
+    background: #d7600e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 12px;
+    width: 240px;
+}
+.contact form .info .form-icons{
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.contact form .info .form-icons i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius:50px; 
+}
+.contact form .info .form-icons .fa-facebook{
+    background: #3b5998;
+}
+.contact form .info .form-icons .fa-twitter{
+    background: #55acee;
+}
+.contact form .info .form-icons .fa-google-plus{
+    background: #dc4e41; 
+}
+
+.contact form .info .form-icons .fa-behance{
+    background: #55a0ee;   
+}
+/*end contact*/
+
+/*footer*/
+.footer{
+    background: #3b434c;
+    overflow: hidden;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer .copyright{
+    float: left;
+}
+
+.footer .design{
+    float: right;
+}
+/*foorer*/
